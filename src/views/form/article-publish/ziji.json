@@ -1,0 +1,1114 @@
+{
+    "table_id": 2100000007460704,
+    "layout_fields": [],
+    "field_layout": [ {
+        "title": "基本信息",
+        "rows": [
+        [
+            2200000069648588
+        ],
+        [
+            2200000069648589
+        ],
+        [
+            2200000069648590
+        ],
+        [
+            2200000069648591
+        ],
+        [
+            2200000069648592
+        ],
+        [
+            2200000069648593
+        ],
+        [
+            2200000069648594
+        ],
+        [
+            2200000069648595
+        ],
+        [
+            2200000069648596,
+            2200000069648597
+        ],
+        [
+            2200000069648598
+        ],
+        [
+            2200000069648599
+        ],
+        [
+            2200000069648600
+        ],
+        [
+            2200000069648601
+        ]]}
+    ],
+    "rights": [
+         
+        "item_share"
+    ],
+    "allow_order_system_fields": [
+        {
+            "created_on": "创建时间"
+        },
+        {
+            "updated_on": "修改时间"
+        },
+        {
+            "last_activity_on": "最后活跃时间"
+        }
+    ],
+    "allow_order_fields": [
+        2200000069648588,
+        2200000069648589,
+        2200000069648590,
+        2200000069648591,
+        2200000069648592,
+        2200000069648593,
+        2200000069648594,
+        2200000069648595,
+        2200000069648596,
+        2200000069648597,
+        2200000069648598,
+        2200000069648599,
+        2200000069648600,
+        2200000069648601,
+        2200000069648589,
+        2200000069648590,
+        2200000069648594,
+        2200000069648601
+    ],
+    
+    "fields": [
+        {
+            "field_id": 2200000069648588,
+            "table_id": 2100000007460704,
+            "type": "text",
+            "name": "标题",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": ""
+            },
+            "config": {
+                "type": "input"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648589,
+            "table_id": 2100000007460704,
+            "type": "date",
+            "name": "时间",
+            "description": "",
+            "unique": false,
+            "required": true,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "type": "datetime",
+                "show_week_day": true
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648590,
+            "table_id": 2100000007460704,
+            "type": "number",
+            "name": "金额",
+            "description": "",
+            "unique": true,
+            "required": true,
+            "default_setting": {
+                "value": "",
+                "relation": null
+            },
+            "config": {
+                "unit_name": "元",
+                "unit_position": "surfix",
+                "display_mode": "number",
+                "separator": "none",
+                "precision": 2,
+                "sub_type": "money"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648591,
+            "table_id": 2100000007460704,
+            "type": "category",
+            "name": "多选",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "type": "multi",
+                "display_mode": "list",
+                "colorful": true,
+                "options": [
+                    {
+                        "status": "active",
+                        "name": "的1",
+                        "id": 1,
+                        "color": "h"
+                    },
+                    {
+                        "status": "active",
+                        "name": "从2",
+                        "id": 2,
+                        "color": "e"
+                    },
+                    {
+                        "status": "active",
+                        "name": "从",
+                        "id": 3,
+                        "color": "o"
+                    }
+                ],
+                "max_id": 3
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648592,
+            "table_id": 2100000007460704,
+            "type": "category",
+            "name": "单选",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "type": "single",
+                "display_mode": "list",
+                "colorful": false,
+                "options": [
+                    {
+                        "status": "active",
+                        "name": "的1",
+                        "id": 1,
+                        "color": "h"
+                    },
+                    {
+                        "status": "active",
+                        "name": "从2",
+                        "id": 2,
+                        "color": "e"
+                    },
+                    {
+                        "status": "active",
+                        "name": "从",
+                        "id": 3,
+                        "color": "o"
+                    }
+                ],
+                "max_id": 3
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648593,
+            "table_id": 2100000007460704,
+            "type": "relation",
+            "name": "关联其他表格",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "table_id": 7115805,
+                "type": "single",
+                "attachable": true,
+                "column_name": "relation_id1",
+                "display_attach_field_ids": [],
+                "default_hidden_attach_field_ids": [],
+                "attach_field_id_mapping": [],
+                "filter": {},
+                "inner_filter": [],
+                "order_by": [
+                    {
+                        "field": "updated_on",
+                        "sort": "desc"
+                    }
+                ],
+                "table": {
+                    "table_id": 7115805,
+                    "name": "流水",
+                    "item_name": "添加流水",
+                    "space_id": 2064597,
+                    "created_by_id": 1827420,
+                    "created_on": "2018-06-05 05:55:04",
+                    "updated_on": "2018-07-11 17:02:12",
+                    "display_in_banner": true,
+                    "item_title": {
+                        "type": "template",
+                        "template": "[field]65920723[/field]  [field]65920724[/field]"
+                    },
+                    "icon": {
+                        "id": "600",
+                        "color": "a",
+                        "rgb": "#42A5F5"
+                    },
+                    "allow_comment": true,
+                    "allow_upload_file": true,
+                    "default_view_id": 0,
+                    "display_filter_field_ids": [
+                        "65920721",
+                        "65920723",
+                        "65920725",
+                        "created_by",
+                        "created_on",
+                        "updated_by",
+                        "updated_on",
+                        "last_activity_on"
+                    ],
+                    "hidden_filter_field_ids": [
+                        "65920724",
+                        "65920726",
+                        "65920722",
+                        "65920727",
+                        "65920728"
+                    ],
+                    "search_field_ids": [
+                        65920723,
+                        65920727,
+                        65920725,
+                        65920728
+                    ],
+                    "list_layout": [
+                        65920721,
+                        65920722,
+                        65920723,
+                        65920727,
+                        65920724,
+                        65920725,
+                        65920726,
+                        65920728
+                    ],
+                    "layout_fields": [],
+                    "field_layout": [
+                        [
+                            65920721,
+                            65920722
+                        ],
+                        [
+                            65920723,
+                            65920727
+                        ],
+                        [
+                            65920724
+                        ],
+                        [
+                            65920725,
+                            65920726
+                        ],
+                        [
+                            65920728
+                        ]
+                    ],
+                    "rights": [
+                        "manage",
+                        "update",
+                        "delete",
+                        "table_publish_market",
+                        "table_copy",
+                        "table_move",
+                        "update_permission",
+                        "update_preference",
+                        "remind_admin",
+                        "workflow_admin",
+                        "app_admin",
+                        "export",
+                        "import",
+                        "select_all_members",
+                        "view",
+                        "item_create",
+                        "item_update",
+                        "item_delete",
+                        "item_lock",
+                        "bulk_update",
+                        "bulk_delete",
+                        "item_share"
+                    ],
+                    "allow_order_system_fields": [
+                        {
+                            "created_on": "创建时间"
+                        },
+                        {
+                            "updated_on": "修改时间"
+                        },
+                        {
+                            "last_activity_on": "最后活跃时间"
+                        }
+                    ],
+                    "allow_order_fields": [
+                        65920721,
+                        65920722,
+                        65920723,
+                        65920727,
+                        65920724,
+                        65920725,
+                        65920726,
+                        65920728,
+                        1107001101000000,
+                        65920721,
+                        65920727,
+                        65920725,
+                        65920728
+                    ],
+                    "is_locked": false,
+                    "last_view_id": 12116144,
+                    "share": {
+                        "open": false
+                    },
+                    "table_share": {
+                        "open": false,
+                        "settings": null
+                    },
+                    "default_app_id": 0,
+                    "table_app_status": "enable",
+                    "lock": {
+                        "permission": 0,
+                        "item_delete": 0
+                    },
+                    "type": "normal",
+                    "last_sync_on": "2018-07-11 17:02:12",
+                    "exception_mes": {
+                        "exception_time": null,
+                        "message": "超过表格最大数据量"
+                    },
+                    "is_exception": false,
+                    "field_sync": true,
+                    "field_layout_type": 1,
+                    "created_by": {
+                        "user_id": 1827420,
+                        "name": "anyushan",
+                        "avatar": "https://hb-v4-public-img.huoban.com/user_avatar/91777612/0@128w_128h_1l"
+                    },
+                    "fields": [
+                        {
+                            "field_id": 65920721,
+                            "table_id": 7115805,
+                            "type": "date",
+                            "name": "时间",
+                            "description": "该字段默认当前时间，当漏记流水时，可修改为过去时间。",
+                            "unique": false,
+                            "required": true,
+                            "default_setting": {
+                                "value": "today"
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 65920722,
+                            "table_id": 7115805,
+                            "type": "category",
+                            "name": "类型",
+                            "description": "还贷款和供房均算作支出。",
+                            "unique": false,
+                            "required": true,
+                            "default_setting": {
+                                "value": null
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 65920723,
+                            "table_id": 7115805,
+                            "type": "text",
+                            "name": "备注",
+                            "description": "流水备注。",
+                            "unique": false,
+                            "required": true,
+                            "default_setting": {
+                                "value": ""
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 65920727,
+                            "table_id": 7115805,
+                            "type": "number",
+                            "name": "收入金额",
+                            "description": "记录收入时，填写；支出不需填写。",
+                            "unique": false,
+                            "required": false,
+                            "default_setting": {
+                                "value": "",
+                                "relation": null
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 65920724,
+                            "table_id": 7115805,
+                            "type": "category",
+                            "name": "支出类别",
+                            "description": "记录支出时，填写；收入不需填写。",
+                            "unique": false,
+                            "required": false,
+                            "default_setting": {
+                                "value": null
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 65920725,
+                            "table_id": 7115805,
+                            "type": "number",
+                            "name": "支出金额",
+                            "description": "记录支出时，填写；收入时不需填写。",
+                            "unique": false,
+                            "required": false,
+                            "default_setting": {
+                                "value": "",
+                                "relation": null
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 65920726,
+                            "table_id": 7115805,
+                            "type": "relation",
+                            "name": "账户",
+                            "description": "支出和收入都必须填写。",
+                            "unique": false,
+                            "required": true,
+                            "default_setting": {
+                                "value": null
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [
+                                1107001101000000
+                            ],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": true,
+                            "allow_create": true,
+                            "allow_lock": true
+                        },
+                        {
+                            "field_id": 1107001101000000,
+                            "table_id": 7115805,
+                            "type": "text",
+                            "name": "账户名称",
+                            "description": "",
+                            "unique": false,
+                            "required": false,
+                            "default_setting": {
+                                "value": ""
+                            },
+                            "range": null,
+                            "system_sync": null,
+                            "system_sync_source": null,
+                            "is_attach_field": true,
+                            "attach_relation_field": {
+                                "field_id": 65920726,
+                                "name": "账户",
+                                "relation_table": {
+                                    "table_id": 7115806,
+                                    "name": "账户",
+                                    "icon": {
+                                        "id": "600",
+                                        "color": "a",
+                                        "rgb": "#42A5F5"
+                                    }
+                                },
+                                "attach_relation_field": null
+                            },
+                            "include_attach_field_ids": [],
+                            "app_id": null,
+                            "application_alias": null,
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": false,
+                            "allow_create": false,
+                            "allow_lock": false
+                        },
+                        {
+                            "field_id": 65920728,
+                            "table_id": 7115805,
+                            "type": "calculation",
+                            "name": "流水金额",
+                            "description": "该字段为辅助计算字段，不用填写，方便账户表格计算使用。",
+                            "unique": false,
+                            "required": false,
+                            "default_setting": {
+                                "value": null
+                            },
+                            "range": null,
+                            "system_sync": false,
+                            "system_sync_source": null,
+                            "is_attach_field": false,
+                            "attach_relation_field": null,
+                            "include_attach_field_ids": [],
+                            "app_id": 0,
+                            "application_alias": "",
+                            "lock": {
+                                "update": 0,
+                                "delete": 0,
+                                "item_update": 0
+                            },
+                            "has_tips": 0,
+                            "allow_update": false,
+                            "allow_create": false,
+                            "allow_lock": false
+                        }
+                    ],
+                    "field_view_conditions": [],
+                    "field_view_config": {
+                        "field_level_maps": {},
+                        "condition_level_maps": [],
+                        "default_view_field_ids": []
+                    },
+                    "default_filters": [],
+                    "has_tips": 0
+                }
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648594,
+            "table_id": 2100000007460704,
+            "type": "number",
+            "name": "关联字段",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": null,
+                "relation": {
+                    "related_by_field_id": 2200000069648593,
+                    "target_field_id": 65920728,
+                    "source_field_id": 65920728
+                }
+            },
+            "config": {
+                "unit_name": "元",
+                "unit_position": "surfix",
+                "display_mode": "number",
+                "separator": "none",
+                "precision": 2,
+                "sub_type": "money"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648595,
+            "table_id": 2100000007460704,
+            "type": "file",
+            "name": "文件",
+            "description": "",
+            "unique": false,
+            "required": true,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "type": "multi"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648596,
+            "table_id": 2100000007460704,
+            "type": "category",
+            "name": "下拉菜单",
+            "description": "",
+            "unique": false,
+            "required": true,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "type": "single",
+                "display_mode": "select",
+                "colorful": true,
+                "options": [
+                    {
+                        "status": "active",
+                        "name": "消息称",
+                        "id": 1,
+                        "color": "h"
+                    },
+                    {
+                        "status": "active",
+                        "name": "烦烦烦",
+                        "id": 2,
+                        "color": "e"
+                    },
+                    {
+                        "status": "active",
+                        "name": "顶顶",
+                        "id": 3,
+                        "color": "o"
+                    }
+                ],
+                "max_id": 3
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648597,
+            "table_id": 2100000007460704,
+            "type": "text",
+            "name": "多行文本",
+            "description": "",
+            "unique": true,
+            "required": true,
+            "default_setting": {
+                "value": "署生"
+            },
+            "config": {
+                "type": "textarea"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648598,
+            "table_id": 2100000007460704,
+            "type": "text",
+            "name": "单选",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": ""
+            },
+            "config": {
+                "type": "input"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648599,
+            "table_id": 2100000007460704,
+            "type": "image",
+            "name": "图片",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "type": "multi"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648600,
+            "table_id": 2100000007460704,
+            "type": "text",
+            "name": "多选",
+            "description": "",
+            "unique": true,
+            "required": true,
+            "default_setting": {
+                "value": "我"
+            },
+            "config": {
+                "type": "input",
+                "recommend": true
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": true,
+            "allow_create": true,
+            "allow_lock": true
+        },
+        {
+            "field_id": 2200000069648601,
+            "table_id": 2100000007460704,
+            "type": "calculation",
+            "name": "计算",
+            "description": "",
+            "unique": false,
+            "required": false,
+            "default_setting": {
+                "value": null
+            },
+            "config": {
+                "formula": "cal_0",
+                "values": [
+                    {
+                        "type": "direct",
+                        "calculated_field_id": 65920725,
+                        "calculated_table_id": 7115805,
+                        "calculated_field_type": "number",
+                        "relation_field_id": 2200000069648593,
+                        "relation_table_id": 2100000007460704,
+                        "relation_mode": "active",
+                        "filter": null
+                    }
+                ],
+                "display_mode": "number",
+                "unit_position": "surfix",
+                "unit_name": "美元",
+                "separator": "thousands",
+                "precision": 2,
+                "item_field": "cal0"
+            },
+            "range": null,
+            "system_sync": false,
+            "system_sync_source": null,
+            "is_attach_field": false,
+            "attach_relation_field": null,
+            "include_attach_field_ids": [],
+            "app_id": 0,
+            "application_alias": "",
+            "lock": {
+                "update": 0,
+                "delete": 0,
+                "item_update": 0
+            },
+            "has_tips": 0,
+            "allow_update": false,
+            "allow_create": false,
+            "allow_lock": false
+        }
+    ],
+    "field_view_conditions": [],
+    "field_view_config": {
+        "field_level_maps": {},
+        "condition_level_maps": [],
+        "default_view_field_ids": []
+    },
+    "default_filters": [],
+    "has_tips": 0,
+    "exceptions": [],
+    "procedure": null,
+    "space": {
+        "space_id": 2064597,
+        "name": "anyushan的工作区",
+        "company_id": 0
+    },
+    "search_config": {
+        "field_size": 0
+    }
+}

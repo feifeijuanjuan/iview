@@ -1,4 +1,9 @@
 {
+  "tabs":[
+    {"label":"标签一","name":"name1","tab_id":100},
+    {"label":"标签二","name":"name2","tab_id":101},
+    {"label":"标签三","name":"name3","tab_id":102}
+  ],
   "table_id": 7115805,
   "name": "流水",
   "item_name": "添加流水",
@@ -50,11 +55,18 @@
     65920724,
     65920725,
     65920726,
-    65920728
+    65920727,
+    65920728,
+    65920729,
+    65920730,
+    65920731,
+    65920732,
+    65920733
   ],
   "layout_fields": [],
   "field_layout": [
     {
+      "tab_id":100,
       "title": "基本信息",
       "rows": [
         [
@@ -66,7 +78,7 @@
           65920727
         ],
         [
-        65920732
+          65920732
         ],
         [
           65920733
@@ -93,7 +105,6 @@
         [
           65920731
         ]
-
       ]
     }
   ],
@@ -363,11 +374,6 @@
         ],
         "max_id": 11
       },
-      "rules":[ {
-        "required": true,
-        "message": "请至少选择一个",
-        "trigger": "change"
-      }],
       "range": null,
       "system_sync": false,
       "system_sync_source": null,
@@ -391,7 +397,6 @@
       "table_id": 7115805,
       "type": "select",
       "name": "下拉列表",
-
       "unique": false,
       "required": false,
       "default_setting": {
@@ -399,19 +404,24 @@
         "relation": null
       },
       "config": {
-        "options": [{
-          "label": "区域一",
-          "value": "1"
-        }, {
-          "label": "区域二",
-          "value": "2"
-        }]
+        "options": [
+          {
+            "label": "区域一",
+            "value": "shanghai"
+          },
+          {
+            "label": "区域二",
+            "value": "beijing"
+          }
+        ]
       },
-      "rules":[ {
-        "required": true,
-        "message": "请至少选择一个",
-        "trigger": "change"
-      }],
+      "rules": [
+        {
+          "required": true,
+          "message": "请至少选择一个",
+          "trigger": "change"
+        }
+      ],
       "range": null,
       "system_sync": false,
       "system_sync_source": null,
@@ -823,19 +833,28 @@
         "value": ""
       },
       "config": {
-        "options": [{
-
-          "label": "美食/餐厅线上活动"
-        }, {
-          "label": "地推活动"
-        }, {
-          "label": "线下主题活动"
-        }, {
-          "label": "单纯品牌曝光"
-        }]
+        "options": [
+          {
+            "label": "美食/餐厅线上活动"
+          },
+          {
+            "label": "地推活动"
+          },
+          {
+            "label": "线下主题活动"
+          },
+          {
+            "label": "单纯品牌曝光"
+          }
+        ]
       },
       "rules": [
-        { "type": "array", "required": "true", "message": "请至少选择一个活动性质", "trigger": "change" }
+        {
+          "required": "true",
+          "type": "array",
+          "message": "至少选择一个",
+          "trigger": "change"
+        }
       ],
       "range": null,
       "system_sync": null,
@@ -880,17 +899,24 @@
         "value": ""
       },
       "config": {
-        "options": [{
-
-          "label": "Apple"
-        }, {
-          "label": "Android"
-        }, {
-          "label": "Windows"
-        }]
+        "options": [
+          {
+            "label": "Apple"
+          },
+          {
+            "label": "Android"
+          },
+          {
+            "label": "Windows"
+          }
+        ]
       },
       "rules": [
-        {"required": "true", "message": "请至少选择一个", "trigger": "change" }
+        {
+          "required": "true",
+          "message": "请至少选择一个",
+          "trigger": "change"
+        }
       ],
       "range": null,
       "system_sync": null,
@@ -1043,7 +1069,7 @@
       "field_id": 65920730,
       "table_id": 7115805,
       "type": "input",
-      "name": "备注",
+      "name": "我是文本域",
       "description": "该字段为辅助计算字段，不用填写，方便账户表格计算使用。",
       "unique": false,
       "required": false,
@@ -1051,7 +1077,7 @@
         "value": null
       },
       "config": {
-        "type":"textarea"
+        "type": "textarea"
       },
       "range": null,
       "system_sync": false,

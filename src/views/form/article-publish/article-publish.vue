@@ -18,31 +18,16 @@
                 </Steps>
 <div  style="height: 20px;"></div>
 
-                <RenderForm :field_layout='field_layout'  :fields='fields' :fields_value='fields_value' ref="ruleForm">
+                                <RenderForm :field_layout='field_layout'  :fields='fields'
+                                            :fields_value='fields_value' :tabs='tabs' ref="ruleForm">
+                                    <div  style="height: 50px;">
 
-               
-
-
-
-
-  <Tabs value="name1">
-        <TabPane label="盈利指标" name="name1">标签一的内容</TabPane>
-        <TabPane label="能力指标" name="name2">标签二的内容</TabPane>
-        <TabPane label="效果分析" name="name3">标签三的内容</TabPane>
-    </Tabs>
-  
-                    <div  style="height: 50px;">
-                        
-                    </div>
- 
- 
-                    
-                     <FormItem>
-                       <i-button type="primary"   @click="submitForm('ruleForm')" >立即创建</i-button>
-                       <i-button @click="resetForm('ruleForm')" >重置</i-button>
-                     </FormItem>  
-                   </RenderForm>
-                   
+                                    </div>
+                                    <FormItem>
+                                        <i-button type="primary"   @click="submitForm('ruleForm')" >立即创建</i-button>
+                                        <i-button @click="resetForm('ruleForm')" >重置</i-button>
+                                    </FormItem>
+                                </RenderForm>
                     </div>
                 </Card>
             </Col>
@@ -108,14 +93,16 @@
 </template>
 
 <script>
- 
+
 import RenderForm from '@/views/main-components/formRender/render-form'
 import formJson from './formcreate.json'
+
 export default {
     name: 'artical-publish',
     components: {
     
     RenderForm
+
     },
     data () {
         console.log(formJson);
@@ -129,7 +116,8 @@ export default {
 
             field_layout:formJson.field_layout,
             fields :formJson.fields,
-            fields_value :formJson.fields,     
+            fields_value :formJson.fields,
+            tabs:formJson.tabs,
 
             articleTitle: '',
             articleError: '',

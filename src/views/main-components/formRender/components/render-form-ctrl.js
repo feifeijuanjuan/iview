@@ -15,7 +15,7 @@ function validator(data) {
         throw new Error('item field_id is unvalidated.')
     }
     else if (!data.type) {
-        throw new Error('item $type is unvalidated.')
+        throw new Error('item type is unvalidated.')
     }
 }
 
@@ -49,7 +49,7 @@ export default {
     render(h) {
         validator(this.data) // 对数据进行简单校验
         let displayW = 'margin-bottom:0px;    padding-top: 4px;'
-        if (this.data.type == 'text') {
+        if (this.data.type == 'input') {
             displayW += 'width: 100%;';
         }
         return h(
@@ -198,7 +198,6 @@ export default {
                         })
                         })
                     )
-
                 //单选组
                 case "radio-group":
                     props = Object.assign({}, data.config);
